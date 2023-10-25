@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+        
+        color: aliceblue;
+    
+  }
+
+  .bg{
+    background-image: url('https://wallpapercave.com/wp/wp4009102.jpg');
+    height: 100vh;
+    background-size: cover; 
+  }
+  
+  .container {
+    max-width: 100px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  .form-control {
+    font-size: 14px; /* Adjust the font size to your preference */
+    padding: 0.375rem 0.75rem; /* You can adjust the padding as well */
+    margin-bottom: 15px; /* Adjust the margin between input fields */
+}
+
+.wider-input {
+    width: 300px;
+    height: 40px; 
+    margin-right: 50px;
+    transform: scale(1.12);
+}
+
+@keyframes moveRight {
+    from {
+      transform: translateX(-100%); 
+    }
+    to {
+      transform: translateX(100%); 
+    }
+  }
+
+  #movingImage {
+    position: relative;
+    animation: moveRight 4s linear infinite; 
+  }
+  
+  
+  /* CSS for edit and delete buttons */
+.delete-button {
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: red;
+    transform: scale(1.2);
+  }
+
+  /* CSS for task text */
+  .task-text {
+    font-weight: bold;
+  }
+/* CSS for checkbox buttons */
+.checkbox-button {
+  transform: scale(2.0); /* Increase the size of the checkbox buttons */
+  margin-right: 10px; /* Add some spacing to separate them from the text */
+}
+
+#taskContainer {
+  background-color: white;
+  color: black;
+  width: 500px; /* Set the width of the container as needed */
+  margin: 20 auto; /* Center the container on the page */
+  padding: 10px; /* Add some padding inside the container */
+  border-radius: 10px; /* Optional: Add rounded corners to the container */
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Optional: Add a subtle box shadow */
+}
+
+#taskContainer h1{
+  font-weight: bold;
+}
+
+.edit-button {
+  transform: scale(1.2);
+  font-weight: bold;
+  margin-right: 40px;
+  background-color: rgb(53, 221, 15);
+  margin-bottom: 23px;
+}
+
+.task-text {
+  font-weight: bold;
+  font-size: larger;
+  margin-right:20%;
+}
+
+#add{
+  transform: scale(1.3);
+}
